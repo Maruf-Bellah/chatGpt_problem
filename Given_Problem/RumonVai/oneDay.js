@@ -1,3 +1,5 @@
+// if and els er chek kora dekhaw ====================================
+
 
 var a = 5;
 var b = 3;
@@ -20,3 +22,45 @@ if(a < b && a < c){
     console.log('C is less then All = ' + c);
 }
 
+var myArry = [51,5,46,0o1,32,15,54,6,9,8,7,65,32,69,78,58];
+
+// sob theke boro sonkkha ta dekhate hobe =========================> 
+
+var max = -99;
+for(let i = 0; i < myArry.length; i++){
+    if(max < myArry[i]){
+        max = myArry[i]
+        // console.log(max);
+    }
+}
+
+// console.log(max);
+
+
+// sob theke choto number ta dekhate hobe =====================
+
+
+var min = 504;
+
+for(let i = 0; i < myArry.length; i++){
+    if(min > myArry[i]){
+        min = myArry[i]
+        // console.log(min);
+    }
+}
+
+// console.log(min);
+
+
+
+// ekta arry er moddhe value ta ace kina and koto number index e ace dekhaw ==========
+
+var arr = [1,2,3,4,5,6,7,8,9]
+var tergetValue = 6;
+var value = arr.includes(tergetValue);
+
+if(value){
+    console.log(`value ace and index number = ${arr.indexOf(tergetValue)}`);
+}else{
+    console.log('value nai');
+}
