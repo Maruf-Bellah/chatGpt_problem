@@ -1,28 +1,29 @@
 // if and els er chek kora dekhaw ====================================
 
 
-var a = 5;
-var b = 3;
-var c = 1;
+// var a = 5;
+// var b = 3;
+// var c = 1;
 
-if(a > b && a > c){
-    console.log("A is greter then All = " + a);
-}else if(b > a && b > c){
-    console.log('B is greter then All = ' + b);
-}else if(c > b && c > a){
-    console.log('C is greter then All = ' + c);
-}
+// if(a > b && a > c){
+//     console.log("A is greter then All = " + a);
+// }else if(b > a && b > c){
+//     console.log('B is greter then All = ' + b);
+// }else if(c > b && c > a){
+//     console.log('C is greter then All = ' + c);
+// }
 
 
-if(a < b && a < c){
-    console.log("A is less then All = " + a);
-}else if(b < a && b < c){
-    console.log('B is less then All = ' + b);
-}else if(c < b && c < a){
-    console.log('C is less then All = ' + c);
-}
+// if(a < b && a < c){
+//     console.log("A is less then All = " + a);
+// }else if(b < a && b < c){
+//     console.log('B is less then All = ' + b);
+// }else if(c < b && c < a){
+//     console.log('C is less then All = ' + c);
+// }
 
-var myArry = [51,5,46,0o1,32,15,54,6,9,8,7,65,32,69,78,58];
+
+var myArry = [51,500,46,0o1,32,15,54,6,9,8,7,65,32,69,78,58];
 
 // sob theke boro sonkkha ta dekhate hobe =========================> 
 
@@ -58,9 +59,22 @@ for(let i = 0; i < myArry.length; i++){
 var arr = [1,2,3,4,5,6,7,8,9]
 var tergetValue = 6;
 var value = arr.includes(tergetValue);
-
 if(value){
     console.log(`value ace and index number = ${arr.indexOf(tergetValue)}`);
 }else{
     console.log('value nai');
+}
+
+
+// eta row javascript diye kora hoyese 
+
+var all = 6;
+
+for(let i = 0; i < myArry.length; i++){
+    if(all == myArry[i]){
+        all = myArry[i]
+        console.log(`value ace and index value = ${myArry.indexOf(all)}`);
+    }else{
+        console.log('vai value nai');
+    }
 }
