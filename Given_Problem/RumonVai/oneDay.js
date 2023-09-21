@@ -78,3 +78,10 @@ for(let i = 0; i < myArry.length; i++){
         console.log('vai value nai');
     }
 }
+
+
+console.log('amar sonar bangla');
+
+
+
+
