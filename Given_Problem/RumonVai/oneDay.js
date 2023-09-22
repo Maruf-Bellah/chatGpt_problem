@@ -56,11 +56,11 @@ for(let i = 0; i < myArry.length; i++){
 
 // ekta arry er moddhe value ta ace kina and koto number index e ace dekhaw ==========
 
-var arr = [1,2,3,4,5,6,7,8,9]
+
 var tergetValue = 6;
-var value = arr.includes(tergetValue);
+var value = myArry.includes(tergetValue);
 if(value){
-    console.log(`value ace and index number = ${arr.indexOf(tergetValue)}`);
+    console.log(`value ace and index number = ${myArry.indexOf(tergetValue)}`)
 }else{
     console.log('value nai');
 }
@@ -71,16 +71,16 @@ if(value){
 var all = 6;
 
 for(let i = 0; i < myArry.length; i++){
-    if(all == myArry[i]){
+    if(all=== myArry[i]){
         all = myArry[i]
-        console.log(`value ace and index value = ${myArry.indexOf(all)}`);
+        console.log(`value ace and index value = ${i}`);
+        break
     }else{
         console.log('vai value nai');
     }
 }
 
 
-console.log('amar sonar bangla');
 
 
 
