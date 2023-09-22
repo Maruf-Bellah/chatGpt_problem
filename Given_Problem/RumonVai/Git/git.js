@@ -9,7 +9,18 @@
 // ls -a 
 
 // ----------------------------------------------------------------
+// touch day1.txt mane day1.text name ekta file create kora hoy 
+// touch day1.txt 
 
+// ---------------------------------------------------------------
+
+// open day1.txt mane day1.txt er file ta khule jabe 
+// open day1.txt 
+
+// ----------------------------------------------------------
+
+// git status diye git tar moddhe file ki obosthay ace ta dekha jay 
+// git status
 
 // add Files
 // add data 
