@@ -75,8 +75,6 @@ for(let i = 0; i < myArry.length; i++){
         all = myArry[i]
         console.log(`value ace and index value = ${i}`);
         break
-    }else{
-        console.log('vai value nai');
     }
 }
 
